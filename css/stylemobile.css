@@ -7,7 +7,7 @@ body {
     justify-content: center;
     width: 100%;
     font-family: "Questrial";
-
+    color: #5b6063;
 }
 header {
     background-color: #2056ac;
@@ -29,15 +29,14 @@ header li {
     list-style: none;
     margin: 1em 0;
 }
+header a:hover {
+    color : #2056ac;
+    background-color: white;
+    padding: 0.5em 8em;
+}
 header a {
     text-decoration: none;
     color : white;
-}
-.selected {
-    color : #2056ac;
-    background-color: white;
-    padding: 0.5em 4em;
-
 }
 img {
     width: 95%;
@@ -45,10 +44,26 @@ img {
 }
 p {
     font-size: 16px;
-    margin: 1em;
+    padding: 1em;
 }
+
 #social {
     padding: 1em;
+}
+span {
+    font-weight: bold;
+}
+section {
+    padding: 2em 0;
+}
+section:nth-child(2){
+    border-top: 1px solid whitesmoke;
+    border-bottom: 1px solid whitesmoke;
+    width: 90%;
+    margin: 0 auto;
+}
+section:nth-child(4){
+    background-color: #e3f0f7;
 }
 section i {
     margin: 0.5em;
@@ -67,4 +82,33 @@ h3 {
 h4 {
     font-size: 16px;
     font-weight: bold;
+}
+button {
+    margin-bottom: 1em;
+    background-color: #64abd1;
+    color: white;
+    padding: 1em;
+    border: none;
+}
+footer {
+    border-top: 1em solid #3162b0;
+    background-color: #2056ac;
+    padding: 2em 0;
+}
+footer p {
+    color: #98a9da;
+}
+footer i {
+    color: white;
+    background-color: #64abd1;
+    width: 1em;
+    margin: 1em 0.5em 1em 0.5em;
+    padding: 0.5em;
+}
+footer ul {
+    display: flex;
+    justify-content: center;
+}
+footer li {
+    list-style: none;
 }
