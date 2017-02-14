@@ -1,0 +1,8 @@
+header ul {
+    display: flex;
+    justify-content: space-around;
+}
+header a:hover {
+    padding: 0.5em 1em;
+
+}
