@@ -9,12 +9,9 @@ header ul {
     flex-direction: row;
     justify-content: space-around;
 }
-/*header a:hover {
-    padding: 0.5em 1em;
-    border-radius: 5%;
+header a {
     padding-bottom: 2em;
-
-}*/
+}
 section:nth-child(n+2) {
     display: flex;
     justify-content: space-around;
@@ -36,5 +33,5 @@ section:nth-child(n+2) {
     padding: 2em 0;
 }
 .third {
-    width: 100%;
+    /*width: 100%;*/
 }
